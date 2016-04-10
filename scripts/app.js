@@ -1,4 +1,6 @@
 var app = angular.module("dpactumWWW", ['ngRoute']);
+app.controller("StaticCtrl", ['$scope', function ($scope) {
+}]);
 
 app.config(['$routeProvider', function($routeProvider) {
     $routeProvider
@@ -7,7 +9,7 @@ app.config(['$routeProvider', function($routeProvider) {
             controller: 'StaticCtrl'
         })
         .when('/urlName', {
-            templateUrl: 'partials/home.html', /* Change this to the new html file */
+            templateUrl: 'partials/partial-name.html', /* Change this to the new html file */
             controller: 'StaticCtrl' /*  Don't change this */
         })
     .otherwise({
@@ -15,9 +17,3 @@ app.config(['$routeProvider', function($routeProvider) {
         });
 }]);
 
-app.controller("HomeCtrl", ['$scope', function ($scope) {
-
-}]);
-app.controller("StaticCtrl", ['$scope', function ($scope) {
-
-}]);
