@@ -8,6 +8,10 @@ app.config(['$routeProvider', function($routeProvider) {
             templateUrl: 'partials/home.html',
             controller: 'StaticCtrl'
         })
+        .when('/blog', {
+            templateUrl: 'partials/blog.html', /* Change this to the new html file */
+            controller: 'StaticCtrl' /*  Don't change this */
+        })
         .when('/urlName', {
             templateUrl: 'partials/partial-name.html', /* Change this to the new html file */
             controller: 'StaticCtrl' /*  Don't change this */
