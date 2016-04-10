@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-controller="dpactumWWW">
 <head>
     <meta charset="UTF-8">
     <title>DPactum</title>
@@ -7,9 +7,20 @@
     <link rel="stylesheet" href="stylesheets/style.css" />
 </head>
 <body>
-    <h1>Welcome to DPactum</h1>
+
+    <div class="container">
+        <h1>Welcome to DPactum</h1>
+
+
+        <div ng-view>
+            <!-- Put this where you want the content to display -->
+        </div>
+    </div>
 
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular-route/angular-route.min.js"></script>
+    <script src="scripts/app.js"></script>
 </body>
 </html>
