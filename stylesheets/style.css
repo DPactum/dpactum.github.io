@@ -57,41 +57,7 @@
 .key-value .glyphicon-ban-circle {
   color: red;
 }
-#graph-page h2 {
-  margin-top: 0;
-  margin-bottom: 15px;
-}
-#graph-page .axis path,
-#graph-page .axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
-#graph-page .x.axis path {
-  display: none;
-}
-#graph-page .line {
-  fill: none;
-  stroke: steelblue;
-  stroke-width: 1.5px;
-}
-#graph-page #simulation-panel {
-  padding: 5px;
-  background-color: #9d9d9d;
-}
-#graph-page #simulation-panel select {
-  font-size: 18px;
-}
-#graph-page .defaulted {
-  background-color: #ff6666;
-  opacity: 0.5;
-}
-#graph-page .warning {
-  background-color: orange;
-}
-#graph-page .tick line {
-  opacity: 0.1;
-}
+
 #home-page .tab-pane {
   padding: 20px;
   text-align: center;
