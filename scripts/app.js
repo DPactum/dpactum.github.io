@@ -1,4 +1,4 @@
-var app = angular.module("dpactumWWW", ['ngRoute']);
+var app = angular.module("dpactumWWW", ['ngRoute', 'angulartics.google.analytics']);
 app.controller("StaticCtrl", ['$scope', function ($scope) {
 }]);
 
