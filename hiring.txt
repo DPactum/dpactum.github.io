@@ -12,14 +12,15 @@
 *
 *     Full Details:  <a href="#developer">Click Here</a>
 **/
+ <!-- qowifjqwoeijfoqweijfqweoifjqweofijqweoqwoijefoqwijefoijfqiwoefjj -->package MarketRates;
  <!-- qowifjqwoeijfoqweijfqweoifjqweofijqweoqwoijefoqwijefoijfqiwoefjj -->
-package MarketRates;
- <!-- qowifjqwoeijfoqweijfqweoifjqweofijqweoqwoijefoqwijefoijfqiwoefjj -->
-public void main(String[] args) {
-    if (you.haveWhatItTakes()) {
-        you.takeTheChallengeAt("<a href="http://www.submitcode.online/challenge/dpactum-stemming">Click Here</a>");
-    } else if (you.jobRole.equals("Recruitment Agent")) { <!-- qowifjqwoeijfoqweijfqweoifjqweofijqweoqwoijefoqwijefoijfqiwoefjj -->
-        System.out.println("Thanks, but no thanks.");
+public class HireMe {
+    static void main(String[] args) {
+        if (you.haveWhatItTakes()) {
+            you.takeTheChallengeAt("<a href="http://www.submitcode.online/challenge/dpactum-stemming">Click Here</a>");
+        } else if (you.jobRole.equals("Recruitment Agent")) { <!-- qowifjqwoeijfoqweijfqweoifjqweofijqweoqwoijefoqwijefoijfqiwoefjj -->
+            System.out.println("Thanks, but no thanks.");
+        }
     }
 }
 
