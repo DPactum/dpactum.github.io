@@ -12,12 +12,20 @@ app.config(['$routeProvider', function($routeProvider) {
             templateUrl: 'partials/blog.html', /* Change this to the new html file */
             controller: 'StaticCtrl' /*  Don't change this */
         })
-            .when('/about', {
+        .when('/about', {
             templateUrl: 'partials/about.html', /* Change this to the new html file */
             controller: 'StaticCtrl' /*  Don't change this */
         })
-            .when('/contact', {
+        .when('/contact', {
             templateUrl: 'partials/contact.html', /* Change this to the new html file */
+            controller: 'StaticCtrl' /*  Don't change this */
+        })
+        .when('/hiring', {
+            templateUrl: 'partials/hiring.html', /* Change this to the new html file */
+            controller: 'StaticCtrl' /*  Don't change this */
+        })
+        .when('/developer', {
+            templateUrl: 'partials/developer.html', /* Change this to the new html file */
             controller: 'StaticCtrl' /*  Don't change this */
         })
         .when('/urlName', {

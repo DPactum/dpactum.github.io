@@ -1,0 +1,26 @@
+/** Are you a developer that's looking to do something different? <!-- qowifjqwoeijfoqweijfqweoifjqweofijqweoqwoijefoqwijefoijfqiwoefjj -->
+*  Do you have the following skills?
+*     - Java 8 (or Java6 experience and above)
+*     - Test Driven Development (JUnit, Mockito, etc)
+*     - Gradle
+*     - Cloud services experience (Azure / Amazon AWS etc.)
+*     - Experience of working in an agile team (Scrum / KanBan etc.)
+*     - HTML5 Frontend Experience (JavaScript, AngularJS etc.)
+*     - GIT
+*     - Continuous Integration (Jenkins, TeamCity)
+*     - Knowledge of RESTful services
+*
+*     Full Details:  <a href="#developer">Click Here</a>
+**/
+ <!-- qowifjqwoeijfoqweijfqweoifjqweofijqweoqwoijefoqwijefoijfqiwoefjj -->
+package MarketRates;
+ <!-- qowifjqwoeijfoqweijfqweoifjqweofijqweoqwoijefoqwijefoijfqiwoefjj -->
+public void main(String[] args) {
+    if (you.haveWhatItTakes()) {
+        you.takeTheChallengeAt("<a href="http://www.submitcode.online/challenge/dpactum-stemming">Click Here</a>");
+    } else if (you.jobRole.equals("Recruitment Agent")) { <!-- qowifjqwoeijfoqweijfqweoifjqweofijqweoqwoijefoqwijefoijfqiwoefjj -->
+        System.out.println("Thanks, but no thanks.");
+    }
+}
+
+
